@@ -13,3 +13,94 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<h1>Crouse notes</h1>
+<h2>w7</h2>
+<p>檢視個人網站及分組網站的h1命名、相關URL連結、網頁標題:</p>
+<ul>
+<li>h1的命名須一目了然，且將裡面內容分類好</li>
+<li>將分組倉儲、組員倉儲的連結附上，供別人方便連結</li>
+<li>網頁標題改至此課程名稱</li>
+</ul>
+<p>抽點學員檢驗YouTube直播 + OBS串流:</p>
+<ul>
+<li>配合疫情情況不穩定檢驗各學員是否會利用網路來做相關遠距上課設定</li>
+<li>檢視課程及直播所需設備是否準備齊全</li>
+</ul>
+<p>說明期末專案內容:</p>
+<ul>
+<li>說明專案所需的相關內容(Ex 繪製零件、遠端控制......)</li>
+<li>說明控制車子移動所需要的硬體及程式</li>
+<li>呈現CoppeliaSim RemoteApi的應用</li>
+</ul>
+<h2>w8</h2>
+<p>說明網際化之應用:</p>
+<ul>
+<li>說明四輪車專案相關模組(Ex numpy、opencv、imutils)的安裝及應用</li>
+</ul>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_818307">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py plain">pip install opencv</code><code class="py keyword">-</code><code class="py plain">python</code></div>
+<div class="line number2 index1 alt1"> </div>
+<div class="line number3 index2 alt2"><code class="py plain">pip install imutils</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<ul>
+<li>展示利用攝像頭及opencv做遠端的監控</li>
+<li>說明利用Leo editor相關程式語法</li>
+<li>說明利用authomatic讓使用者需要登入設定的信箱規格才能查看內容</li>
+</ul>
+<p><span>抽點學員檢驗YouTube直播 + OBS串流:</span></p>
+<ul>
+<li><span>配合疫情情況不穩定檢驗各學員是否會利用網路來做相關遠距上課設定</span></li>
+<li><span>檢視課程及直播所需設備是否準備齊全</span></li>
+</ul>
+<h2>w9</h2>
+<p>期中考週:</p>
+<ul>
+<li>利用個人行事曆建立 Google Handout Meet，並利用meet錄製個人w1~w8內容</li>
+<li>填寫表單提送期中簡報URL和自評分數</li>
+</ul>
+<p>說明w9~w18任務</p>
+<ol>
+<li>利用Onshape繪製四輪車零件</li>
+<li>零組件轉檔至CoppeliaSim</li>
+<li>轉入至CoppeliaSim之零組件檔案分割及零件從屬關係配置</li>
+<li>利用Python Remote Api進行四輪車控制</li>
+<li>Remote Api配合Flask、Oauth2使四輪車在網際控制</li>
+<li>利用虛擬主機配合Ubuntu20.04進行網際控制</li>
+<li>整合上述6項完成此課程專案</li>
+</ol>
+<p>說明虛擬主機網路設定:</p>
+<ul>
+<li>NAT:僅提供網路連線，無法做其他功能</li>
+<li>Bridged:能模擬一台實體主機，和實體主機相同位階</li>
+<li>host only:僅能和實體主機進行通訊，沒有實際網路功能</li>
+</ul>
+<h2>w10</h2>
+<p>說明Oauth2應用:</p>
+<ul>
+<li>講解配合Google Api + Oauth2的應用及優點</li>
+<li>說明如何利用Google Api建立相關憑證</li>
+</ul>
+<p>說明四輪車可配合網際化之應用:</p>
+<ul>
+<li>利用HTML form來搭配不同之四輪車展示(ex.下拉式選單)</li>
+<li>配合csv模組將獲取的相關資料放入資料庫</li>
+</ul>
+<p>簡述Leo Editor開發人員歷程及運作團隊</p>
+<p></p>
